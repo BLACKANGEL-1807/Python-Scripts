@@ -235,11 +235,11 @@ class Polynomial:
 if __name__ == "__main__":
     leftPoly = Polynomial(2, 5)
     leftPoly += Polynomial(1, 3)
-    leftPoly += Polynomial(0, -10)
+    leftPoly += Polynomial(0, 10)
 
     rightPoly = Polynomial(3, 2)
     rightPoly += Polynomial(2, 4)
-    rightPoly += Polynomial(0, 3)
+    rightPoly += Polynomial(6, 3)
 
     addPoly = leftPoly + rightPoly
     #subPoly = leftPoly - rightPoly
