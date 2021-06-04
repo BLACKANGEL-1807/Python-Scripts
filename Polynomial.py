@@ -1,6 +1,3 @@
-# Data Structures and Algorithms Using Python
-# CHAPTER 6: Linked Structures
-# Listing 6.14: polynomial.py
 
 
 class _PolyTermNode(object):
